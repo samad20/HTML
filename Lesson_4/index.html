@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Musaab Al Jahdhami" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning how to create as I learn HTML."
+    />
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Hello World!</h1>
+    <!--
+        <hr> for line break
+    -->
+    <hr />
+    <ul>
+      <li>
+        <a href="#HTML">Learning HTML</a>
+      </li>
+      <li>
+        <a href="#Vacation">Planing a vacation</a>
+      </li>
+    </ul>
+    <hr />
+
+    <section id="HTML">
+      <h2>I'm Ready to Learn HTML</h2>
+      <p>This is my first web page.</p>
+      <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML" width="300" height="300"> 
+      <h3>My Daily Schedule</h3>
+      <p>Let me tell you how:</p>
+      <!-- 
+            <br> using as a break
+            <abbr title=""></abbr> using for abbreviation
+            <ol> - orderd list
+        -->
+
+      <ol>
+        <li>I learn more about web dev.</li>
+        <li>I plan out my schedule.</li>
+        <li>
+          I use resources from
+          <abbr title="Mozilla Developer Network"
+            ><a href="https://developer.mozilla.org">MDN</a></abbr
+          >.
+        </li>
+      </ol>
+    </section>
+
+    <hr />
+
+    <!--
+        <em> - emphasized text
+        <address> - address
+    -->
+    <section id="Vacation">
+      <h2>I Am Also Planning a Vacation</h2>
+
+      <p>I've been working hard and <em>really need a getaway</em>.</p>
+      <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+
+      <h3>Place I'd Like to Visit</h3>
+
+      <ul>
+        <li><p>I've heard good things about the Caribbean.</p></li>
+
+        <!--
+          loading="lazy" > do not load image until scrolling
+        -->
+        <figure>
+          <img src="img/caribbean.jpg" alt="I want visit Caribbean" width="400" height="225" loading="lazy">
+          <figcaption>caribbean beach gateway</figcaption>
+        </figure>
+        <li>
+          <p>I've heard good things about going here:</p>
+          <address>
+            Margaritaville Island Reserve Riviera Cancún<br />
+            Bahia Petempich Puerto Morelos, Mexico<br />
+            Colonia Morelos, México 77580
+          </address>
+          <figure>
+            <img src="img/vacation.jpg" alt="Cancun Vacation" title="it's 5 o'Clock Somewhere!" width="400" height="267" loading="lazy">
+            <figcaption>
+              A Caribbean Vacation Image
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      <!-- TODO: Add more places -->
+      <h3>Place I Want to Avoid</h3>
+      <dl>
+        <dt>North Pole</dt>
+        <dd>I hear this is <strong>cold!</strong></dd>
+
+        <dt>South Pole</dt>
+        <dd>This is also cold.</dd>
+
+        <dt>Mountain Tops</dt>
+        <dd>These are also cold.</dd>
+      </dl>
+    </section>
+
+    <hr />
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+
+    &lt;&lt;&lt; &copy; <a href="about.html">Samad20</a> &gt;&gt;&gt;
+  </body>
+</html>
